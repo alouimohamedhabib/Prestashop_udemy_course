@@ -1,0 +1,30 @@
+.language-selector, .currency-selector {
+  border: none;
+  vertical-align: middle ;
+  &:hover {
+    span {
+      &:after {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+    }
+  }
+  span {
+    &:after {
+      content: "▼";
+      display: inline-block;
+      font-size: 14px;
+      color: inherit;
+      -webkit-animation: all 300ms;
+      -o-animation: all 300ms;
+      animation: all 300ms;
+      &:hover {
+        transform: rotate(180deg);
+      }
+    }
+
+  }
+}

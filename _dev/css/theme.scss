@@ -1,0 +1,23 @@
+@import "modules/ps_languageselector";
+@import "modules/ps_imageslider";
+@import "modules/ps_contactinfo";
+@import "modules/ps_currencyselector";
+@import "modules/ps_customersignin";
+@import "modules/ps_shoppingcart";
+@import "font-awesome/css/font-awesome.min.css";
+@import "general/product-list";
+@import "general/product";
+$main-gray-color: #d3d3d3;
+body {
+  header {  
+    background: $main-gray-color;
+    .header-nav {
+      background: #ffffff;
+      height:40px;
+      margin: 10px 0;
+      #blockcart-wrapper, .language-selector {
+        vertical-align: middle;
+      }
+    }
+  }
+}

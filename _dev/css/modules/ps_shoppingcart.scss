@@ -1,0 +1,21 @@
+#blockcart-wrapper {
+  .blockcart {
+    vertical-align: middle;
+    .header {
+      border: none;
+      margin-top: .125rem;
+    }
+  }
+  .cart-preview{
+    &:hover {
+      .body {
+      padding: 1em;
+        .cart-subtotals {
+          span.label {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

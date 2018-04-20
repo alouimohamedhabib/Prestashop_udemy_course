@@ -1,0 +1,15 @@
+.user-info {
+
+  vertical-align: middle;
+  margin: 0 20px;
+  a {
+    border: none;
+    &:hover {
+      border: none;
+    }
+    i {
+      margin: 0 5px;
+      font-size: 1.1em;
+    }
+  }
+}
